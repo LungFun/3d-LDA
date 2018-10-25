@@ -1,0 +1,1 @@
+../../../gibbs-lda-couple/src/lda -est -alpha 0.2 -beta 0.1 -beta_t 0.2 -beta_g 0.2 -ntopics 10 -ntimes 8 -ngeos 10 -niters 100 -savestep 101 -twords 20 -dfile tv_p_dfile.txt.mini -dfile_t tv_p_dfile_t.txt.mini -dfile_g tv_p_dfile_g.txt.mini
