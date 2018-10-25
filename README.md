@@ -1,6 +1,7 @@
 (1)There are 5 dir in src:
 
 	(A)data
+
 	(B)gibbs-lda-couple: a 3 dimensional topic LDA based on GibbsLDA(Gibbs Sampling)
 
 		usage:
@@ -9,18 +10,26 @@
 
 	(c) gibbs-lda: copy of the origin gibbs-lda: http://gibbslda.sourceforge.net/
 
-        (D) lda-c : copy of https://github.com/blei-lab/lda-c: an implementation if variational EM for LDA
+        (D) lda-c : copy of https://github.com/blei-lab/lda-c: an implementation of variational EM for LDA
 
         (E) topic_over_time: copy of https://github.com/ahmaurya/topics_over_time: an implementation of A Non-Markov Continuous-Time Model of Topical Trends. 
 
 
 (2) data sets are about tv programs watched by user.
 
-	use LDA to cluster tv programs in family 
+	Use LDA to cluster tv programs in family.
 
-	This is to find family interests of tv programs
+	This is to find family interests of tv programs.
 
-	when use lda-gibbs-couple, when use tv program, tv time, tv channels as 3dimesion vector. And we set their hyper-parameter phi as 0.2,0.1,0.2, alpha as 0.2, and k as 15,8,15, max iteration 100, we get the following results:
+	When using lda-gibbs-couple, treat tv program, tv time, tv channels as 3dimesion vector. 
+        
+        And we set their hyper-parameter phi as 0.2,0.1,0.2,
+
+                                       alpha as 0.2, 
+
+                                       and k as 15,8,15, 
+
+            max iteration 100, we get the following results:
 
 	(A) programs clusters:
 
