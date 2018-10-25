@@ -1,3 +1,8 @@
+usage:
+
+./gibbs-lda-couple/src/lda -est -alpha 0.2 -beta 0.1 -beta_t 0.2 -beta_g 0.2 -ntopics 15 -ntimes 8 -ngeos 15 -niters 100 -savestep 101 -twords 20 -dfile tv_program_file -dfile_t tv_program_time_file -dfile_g tv_program_channel_file
+
+
 (1) a 3 dimensional topic LDA based on GibbsLDA(Gibbs Sampling)
 
 (2) data sets are about tv programs watched by user.
