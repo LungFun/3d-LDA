@@ -1,9 +1,12 @@
 (1) A 3 dimensional topic LDA based on GibbsLDA(Gibbs Sampling)
+
 (2) data sets are about tv programs watched by user.
 	use LDA to cluster tv programs in family 
 	This is to find family interests of tv programs
 	when use lda-gibbs-couple, when use tv program, tv time, tv channels as 3dimesion vector. And we set their hyper-parameter phi as 0.2,0.1,0.2, alpha as 0.2, and k as 15,8,15, max iteration 100, we get the following results:
+
 	(A) programs clusters:
+
 	Topic 0th:
 	动画大放映 0.052966
 	新大头儿子和小头爸爸 0.049453
