@@ -1,9 +1,18 @@
-usage:
+(1)There are 5 dir in src:
 
-./gibbs-lda-couple/src/lda -est -alpha 0.2 -beta 0.1 -beta_t 0.2 -beta_g 0.2 -ntopics 15 -ntimes 8 -ngeos 15 -niters 100 -savestep 101 -twords 20 -dfile tv_program_file -dfile_t tv_program_time_file -dfile_g tv_program_channel_file
+	(A)data
+	(B)gibbs-lda-couple: a 3 dimensional topic LDA based on GibbsLDA(Gibbs Sampling)
 
+		usage:
 
-(1) a 3 dimensional topic LDA based on GibbsLDA(Gibbs Sampling)
+		./gibbs-lda-couple/src/lda -est -alpha 0.2 -beta 0.1 -beta_t 0.2 -beta_g 0.2 -ntopics 15 -ntimes 8 -ngeos 15 -niters 100 -savestep 101 -twords 20 -dfile tv_program_file -dfile_t tv_program_time_file -dfile_g tv_program_channel_file
+
+	(c) gibbs-lda: copy of the origin gibbs-lda: http://gibbslda.sourceforge.net/
+
+        (D) lda-c : copy of https://github.com/blei-lab/lda-c: an implementation if variational EM for LDA
+
+        (E) topic_over_time: copy of https://github.com/ahmaurya/topics_over_time: an implementation of A Non-Markov Continuous-Time Model of Topical Trends. 
+
 
 (2) data sets are about tv programs watched by user.
 
